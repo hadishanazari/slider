@@ -127,6 +127,93 @@
 /*End baner */
 
 
+
+   /* banerSecond */
+   .banerSecond__title {
+    text-align: center;
+    right: auto;
+    font-size: 30px;
+  }
+ .banerSecond__slider{
+    top: 50px;
+  }
+.banerSecond__slider-items {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 225px;
+    border-radius: 20px;
+  
+    box-shadow: 20px 15px 20px 10px rgb(0, 0, 0, 0.3),
+      20px 15px 20px 10px rgb(0, 0, 0, 0.2), 0px 0px 10px 5px rgb(0, 0, 0, 0.2);
+      
+  }
+   .banerSecond__slider-items .banerSecond__slider-item {
+    width: 250px;
+    height: 225px;
+    border-radius: 20px;
+    position: absolute;
+    transition: .5s ease;
+  }
+  .banerSecond__slider-item.position-0 {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    opacity: 1;
+  }
+  
+  .banerSecond__slider-item.position-1 {
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 30%;
+    z-index: 4;
+    opacity: 1;
+  }
+  
+  .banerSecond__slider-item.position-2 {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 70%;
+    z-index: 3;
+    opacity: 0.6;
+  }
+  
+  .banerSecond__slider-item.position-3 {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: -50%;
+    z-index: 1;
+    opacity: 0.6;
+  }
+  
+  .banerSecond__slider-item.position-4 {
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: -25%;
+    z-index: 2;
+    opacity: 1;
+  }
+  
+  .banerSecond__slider-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  .banerSecond__btns {
+    top: -35px;
+    right: 85px;
+    margin: 100px 0 20px 0 ;
+  }
+  /*End banerSecond */
+
 }
 
 
@@ -257,6 +344,89 @@
     }
   }
 /*End baner */
+
+
+    /* banerSecond */
+    .banerSecond__title {
+      text-align: center;
+      right: auto;
+      font-size: 30px;
+    }
+    .banerSecond__slider-items {
+      display: flex;
+      position: relative;
+      width: 300px;
+      height: 225px;
+      border-radius: 20px;
+    
+      box-shadow: 20px 15px 20px 10px rgb(0, 0, 0, 0.3),
+        20px 15px 20px 10px rgb(0, 0, 0, 0.2), 0px 0px 10px 5px rgb(0, 0, 0, 0.2);
+        
+    }
+     .banerSecond__slider-items .banerSecond__slider-item {
+      width: 300px;
+      height: 225px;
+      border-radius: 20px;
+      position: absolute;
+      transition: .5s ease;
+    }
+    .banerSecond__slider-item.position-0 {
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      z-index: 5;
+      opacity: 1;
+    }
+    
+    .banerSecond__slider-item.position-1 {
+      width: 90%;
+      height: 90%;
+      top: 5%;
+      left: 50%;
+      z-index: 4;
+      opacity: 1;
+    }
+    
+    .banerSecond__slider-item.position-2 {
+      width: 80%;
+      height: 80%;
+      top: 10%;
+      left: 100%;
+      z-index: 3;
+      opacity: 0.6;
+    }
+    
+    .banerSecond__slider-item.position-3 {
+      width: 80%;
+      height: 80%;
+      top: 10%;
+      left: -80%;
+      z-index: 1;
+      opacity: 0.6;
+    }
+    
+    .banerSecond__slider-item.position-4 {
+      width: 90%;
+      height: 90%;
+      top: 5%;
+      left: -40%;
+      z-index: 2;
+      opacity: 1;
+    }
+    
+    .banerSecond__slider-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+    }
+    
+  .banerSecond__btns {
+      margin: 120px 0 20px 0 ;
+    }
+    
+  /*End banerSecond */
 
 }
 
