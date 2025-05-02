@@ -129,6 +129,13 @@
 
 
    /* banerSecond */
+   .banerSecond__background{
+    width: 150%;
+
+  }
+   .banerSecond .container{
+    margin-top: 180px;
+   }
    .banerSecond__title {
     text-align: center;
     right: auto;
