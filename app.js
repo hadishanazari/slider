@@ -119,3 +119,21 @@ btnPrevSecond.addEventListener("click", () => {
 });
 
 // END banerSecond ///
+
+//  banerthird ///
+
+let sliderThird = document.querySelectorAll(".banerthird__slider-item");
+
+sliderThird.forEach(item  =>{
+  
+  item.addEventListener('click' , ()=>{
+    sliderThird.forEach(item => item.className = ("banerthird__slider-item"));
+  item.classList.add('activeThird');
+});
+
+});
+
+
+
+
+// END banerthird ///
